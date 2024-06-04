@@ -58,7 +58,7 @@ export const questions = [
       "const name;",
       "None of the above",
     ],
-    answer: "var name",
+    answer: "var name;",
     category: "coding",
   },
 
