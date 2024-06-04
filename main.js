@@ -1,4 +1,4 @@
-import { quiz } from "./quiz.js";
+import { quiz } from "./app.js";
 
 document.addEventListener("DOMContentLoaded", () => {
   document.getElementById("start-quiz").addEventListener("click", function () {
