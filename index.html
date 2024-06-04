@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz App</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link rel="stylesheet" href="quiz.css" />
+    <link
+      rel="shortcut icon"
+      href="public/android-chrome-192x192.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <!-- Background Image -->
+    <div id="background-image"></div>
+
+    <!-- Hero Section of the Quiz App -->
+    <div id="hero-section" class="common-styling container">
+      <div class="text-content">
+        <h1>Quizzy</h1>
+        <p>The Fun Way to Sharpen Your Mind</p>
+        <button id="start-quiz" class="button-style">Start Quiz</button>
+      </div>
+      <div class="img-content">
+        <img
+          src="public/undraw_mobile_feed_re_72ta.svg"
+          alt="undraw_mobile_feed_re_72ta"
+        />
+      </div>
+    </div>
+
+    <!-- Category Section -->
+    <div id="categories-section"
+      class="hidden common-styling container cartegories"
+    >
+      <div class="card">
+        <img src="public/undraw_greek_freak_j-2-qb.svg" alt="sports" />
+        <div class="text">Sports</div>
+      </div>
+      <div class="card">
+        <img
+          src="public/undraw_horror_movie_3988.svg"
+          alt="undraw_horror_movie_3988"
+        />
+        <div class="text">Movies</div>
+      </div>
+      <div class="card">
+        <img
+          src="public/undraw_programming_re_kg9v.svg"
+          alt="undraw_programming_re_kg9v"
+        />
+        <div class="text">Coding</div>
+      </div>
+      <div class="card">
+        <img
+          src="public/undraw_medical_research_qg4d.svg"
+          alt="undraw_medical_research_qg4d"
+        />
+        <div class="text">Science</div>
+      </div>
+      <div class="card">
+        <img
+          src="public/undraw_in_thought_re_qyxl.svg"
+          alt="undraw_in_thought_re_qyxl"
+        />
+        <div class="text">History</div>
+      </div>
+      <div class="card">
+        <img
+          src="public/undraw_contemplating_re_ynec.svg"
+          alt="undraw_contemplating_re_ynec"
+        />
+        <div class="text">Music</div>
+      </div>
+    </div>
+
+    <!-- Question and Options -->
+
+    <div class="hidden common-styling container quiz" id="quiz-section">
+      <div class="section-top">
+        <button id="submit">Submit</button>
+      </div>
+
+      <div class="section-middle">
+        <div class="section-middle-1">
+          <div id="question-no"></div>
+          <div id="question"></div>
+          <div id="options"></div>
+        </div>
+        <div class="section-middle-2">
+          <div class="circular-progress">
+            <div id="timer">5:00</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section-bottom"></div>
+    </div>
+
+    <!-- Score Card -->
+
+    <div id="score-card" class="hidden common-styling container">
+      <div class="score-display">
+        <h2></h2>
+        <div class="btns">
+          <button class="button-style second" id="restart-quiz">Restart</button>
+          <button class="button-style" id="quit-quiz">Quit</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Confirm Submission -->
+    <div id="submit-card" class="hidden container common-styling ">
+      <div class="card">
+        <div class="card-text">
+          Whoa there! Seems like you missed a few questions. Maybe give them a shot before submitting?
+        </div>
+
+        <div class="submit-btns">
+          <button class="button-style" id="no">No</button>
+          <button class="button-style" id="yes">Yes</button>
+        </div>
+      </div>
+    </div>
+
+    <script type="module" src="./question.js"></script>
+    <script type="module" src="./timer.js"></script>
+    <script type="module" src="./ui.js"></script>
+    <script type="module" src="./main.js"></script>
+    <script type="module" src="./quiz.js"></script>
+  </body>
+</html>
