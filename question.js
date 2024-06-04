@@ -50,14 +50,15 @@ export const questions = [
     category: "coding",
   },
   {
-    question: "What is the purpose of an API?",
+    question:
+      "In JavaScript, how do you declare a variable without initializing it?",
     options: [
-      "To define the structure of a database",
-      "To create a user interface",
-      "To store and manage data",
-      "To define how applications interact with each other",
+      "var name;",
+      "let name;",
+      "const name;",
+      "None of the above",
     ],
-    answer: "To define how applications interact with each other",
+    answer: "var name",
     category: "coding",
   },
 
