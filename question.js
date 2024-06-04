@@ -1,66 +1,101 @@
 export const questions = [
-  
-    {
-      "question": "What does HTML stand for?",
-      "options": ["Hypertext Markup Language", "Hyperlink Text Markup Language", "High Text Markup Language", "Hypertext Mailing Language"],
-      "answer": "Hypertext Markup Language",
-      "category": "coding"
-    },
-    {
-      "question": "In a loop, what statement is used to repeat a block of code?",
-      "options": ["if", "switch", "for", "while"],
-      "answer": "for",
-      "category": "coding"
-    },
-    {
-      "question": "What is the correct syntax to declare a variable in JavaScript?",
-      "options": ["var name = value", "let name = value", "const name = value", "All of the above"],
-      "answer": "All of the above",
-      "category": "coding"
-    },
-    {
-      "question": "What is the purpose of a function in programming?",
-      "options": ["To group a reusable block of code", "To define a variable", "To create a loop", "To define a conditional statement"],
-      "answer": "To group a reusable block ofcode",
-      "category": "coding"
-    },
-    {
-      "question": "What does CSS stand for?",
-      "options": ["Cascading Style Sheets", "Coded Style Script", "Colorful Style Script", "Creative Style Sheet"],
-      "answer": "Cascading Style Sheets",
-      "category": "coding"
-    },
-    {
-      "question": "What is the purpose of an API?",
-      "options": ["To define the structure of a database", "To create a user interface", "To store and manage data","To define how applications interact with each other"],
-      "answer": "To define how applications interact with each other",
-      "category": "coding"
-    },
-    {
-      "question": "What does DOM stand for?",
-      "options": ["Style Definition", "Document Structure", "User Interaction"],
-      "answer": "Document Structure",
-      "category": "coding"
-    },
-    {
-      "question": "What is a common version control system used by programmers?",
-      "options": ["Git", "SVN", "CVS", "All of the above"],
-      "answer": "All of the above",
-      "category": "coding"
-    },
-    {
-      "question": "What is the purpose of debugging in programming?",
-      "options": ["To optimize code performance","To find and fix errors in code", "To write new code features", "To test code functionality"],
-      "answer": "To find and fix errors in code",
-      "category": "coding"
-    },
-    {
-      "question": "What does IDE stand for?",
-      "options": ["Independent Development Environment", "Interactive Development Environment","Integrated Development Environment", "Internal Development Environment"],
-      "answer": "Integrated Development Environment",
-      "category": "coding"
-    },
-  
+  {
+    question: "What does HTML stand for?",
+    options: [
+      "Hypertext Markup Language",
+      "Hyperlink Text Markup Language",
+      "High Text Markup Language",
+      "Hypertext Mailing Language",
+    ],
+    answer: "Hypertext Markup Language",
+    category: "coding",
+  },
+  {
+    question: "In a loop, what statement is used to repeat a block of code?",
+    options: ["if", "switch", "for", "while"],
+    answer: "for",
+    category: "coding",
+  },
+  {
+    question: "What is the correct syntax to declare a variable in JavaScript?",
+    options: [
+      "var name = value",
+      "let name = value",
+      "const name = value",
+      "All of the above",
+    ],
+    answer: "All of the above",
+    category: "coding",
+  },
+  {
+    question: "What tasks can be accomplished using functions in programming?",
+    options: [
+      "Performing calculations",
+      "Storing and manipulating data",
+      "Controlling program flow",
+      "All of the above",
+    ],
+    answer: "All of the above",
+    category: "coding",
+  },
+  {
+    question: "What does CSS stand for?",
+    options: [
+      "Cascading Style Sheets",
+      "Coded Style Script",
+      "Colorful Style Script",
+      "Creative Style Sheet",
+    ],
+    answer: "Cascading Style Sheets",
+    category: "coding",
+  },
+  {
+    question: "What is the purpose of an API?",
+    options: [
+      "To define the structure of a database",
+      "To create a user interface",
+      "To store and manage data",
+      "To define how applications interact with each other",
+    ],
+    answer: "To define how applications interact with each other",
+    category: "coding",
+  },
+
+  {
+    question: "What symbol is used to represent comments in JavaScript code?",
+    options: ["//", "#", "!", "/* */"],
+    answer: "//",
+    category: "coding",
+  },
+  {
+    question: "What is a common version control system used by programmers?",
+    options: ["Git", "SVN", "CVS", "All of the above"],
+    answer: "All of the above",
+    category: "coding",
+  },
+  {
+    question: "What is the purpose of debugging in programming?",
+    options: [
+      "To optimize code performance",
+      "To find and fix errors in code",
+      "To write new code features",
+      "To test code functionality",
+    ],
+    answer: "To find and fix errors in code",
+    category: "coding",
+  },
+  {
+    question: "What does IDE stand for?",
+    options: [
+      "Independent Development Environment",
+      "Interactive Development Environment",
+      "Integrated Development Environment",
+      "Internal Development Environment",
+    ],
+    answer: "Integrated Development Environment",
+    category: "coding",
+  },
+
   // Sports
   {
     question: "Which sport features a birdie as a desirable outcome?",
@@ -139,7 +174,7 @@ export const questions = [
   },
   {
     question: 'What is the name of the spaceship in the movie "Alien"?',
-    options: ["Millennium Falcon","Nostromo", "Enterprise", "Serenity"],
+    options: ["Millennium Falcon", "Nostromo", "Enterprise", "Serenity"],
     answer: "Nostromo",
     category: "movies",
   },
@@ -156,7 +191,7 @@ export const questions = [
   },
   {
     question: 'What animated movie features the song "Hakuna Matata"?',
-    options: ["Bambi", "Pocahontas", "Moana","The Lion King",],
+    options: ["Bambi", "Pocahontas", "Moana", "The Lion King"],
     answer: "The Lion King",
     category: "movies",
   },
@@ -175,14 +210,14 @@ export const questions = [
   {
     question:
       'What is the name of the fictional world depicted in the "Avatar" movies?',
-    options: ["Wakanda", "Middle-earth","Pandora", "Hogwarts"],
+    options: ["Wakanda", "Middle-earth", "Pandora", "Hogwarts"],
     answer: "Pandora",
     category: "movies",
   },
   {
     question:
       "Which psychological thriller movie features a young boy who can see dead people?",
-    options: ["The Shining", "Inception", "Black Swan","The Sixth Sense"],
+    options: ["The Shining", "Inception", "Black Swan", "The Sixth Sense"],
     answer: "The Sixth Sense",
     category: "movies",
   },
@@ -220,11 +255,7 @@ export const questions = [
   // Science
   {
     question: "What is the smallest unit of matter?",
-    options: [
-      "Molecule", 
-      "Cell", 
-      "Atom", 
-    "Organism"],
+    options: ["Molecule", "Cell", "Atom", "Organism"],
     answer: "Atom",
     category: "science",
   },
@@ -249,21 +280,21 @@ export const questions = [
   },
   {
     question: "What is the study of the Earth and its atmosphere called?",
-    options: ["Astronomy", "Biology","Geology", "Chemistry"],
+    options: ["Astronomy", "Biology", "Geology", "Chemistry"],
     answer: "Geology",
     category: "science",
   },
   {
     question:
       "Which element on the periodic table makes up the majority of the Earth's core?",
-    options: ["Oxygen", "Hydrogen", "Helium","Iron"],
+    options: ["Oxygen", "Hydrogen", "Helium", "Iron"],
     answer: "Iron",
     category: "science",
   },
   {
     question:
       "What is the process by which water changes its state from a liquid to a gas?",
-    options: ["Condensation","Evaporation", "Precipitation", "Sublimation"],
+    options: ["Condensation", "Evaporation", "Precipitation", "Sublimation"],
     answer: "Evaporation",
     category: "science",
   },
@@ -277,7 +308,7 @@ export const questions = [
   {
     question:
       "The study of the structure and function of the human body is called?",
-    options: ["Physiology","Gene", "Zoology", "Botany"],
+    options: ["Physiology", "Gene", "Zoology", "Botany"],
     answer: "Anatomy",
     category: "science",
   },
@@ -313,7 +344,7 @@ export const questions = [
       "The dropping of the atomic bomb on Hiroshima",
       "The storming of the Bastille",
       "The assassination of Archduke Franz Ferdinand",
-      "The signing of the Treaty of Versailles"
+      "The signing of the Treaty of Versailles",
     ],
     answer: "The signing of the Treaty of Versailles",
     category: "history",
@@ -364,7 +395,7 @@ export const questions = [
   {
     question:
       "The Industrial Revolution was a period of rapid technological advancement that began in which country?",
-    options: ["France","Great Britain", "Germany", "The United States"],
+    options: ["France", "Great Britain", "Germany", "The United States"],
     answer: "Great Britain",
     category: "history",
   },
@@ -383,12 +414,7 @@ export const questions = [
   {
     question:
       "The policy of appeasement was a failed attempt to prevent World War II by making concessions to which Nazi leader?",
-    options: [
-      "Joseph Stalin",
-      "Adolf Hitler",
-      "Benito Mussolini",
-      "Hirohito",
-    ],
+    options: ["Joseph Stalin", "Adolf Hitler", "Benito Mussolini", "Hirohito"],
     answer: "Adolf Hitler",
     category: "history",
   },
@@ -422,7 +448,7 @@ export const questions = [
   {
     question:
       "What is the name of the four-member British rock band formed in Liverpool in 1960?",
-    options: ["The Rolling Stones", "Queen","The Beatles", "Pink Floyd"],
+    options: ["The Rolling Stones", "Queen", "The Beatles", "Pink Floyd"],
     answer: "The Beatles",
     category: "music",
   },
@@ -436,14 +462,14 @@ export const questions = [
   {
     question:
       "Which musical period is known for its complex compositions and use of counterpoint?",
-    options: [ "Renaissance", "Classical","Baroque", "Romantic"],
+    options: ["Renaissance", "Classical", "Baroque", "Romantic"],
     answer: "Baroque",
     category: "music",
   },
   {
     question:
       "What is the term used to describe a singer who performs solo with a band or orchestra?",
-    options: ["Instrumentalist", "Composer", "Conductor","Vocalist",],
+    options: ["Instrumentalist", "Composer", "Conductor", "Vocalist"],
     answer: "Vocalist",
     category: "music",
   },
@@ -469,14 +495,14 @@ export const questions = [
   {
     question:
       "What is the genre of music that originated in African-American communities in the early 20th century?",
-    options: ["Blues","Jazz", "Rock and Roll", "Gospel"],
+    options: ["Blues", "Jazz", "Rock and Roll", "Gospel"],
     answer: "Jazz",
     category: "music",
   },
   {
     question:
       "What is the term used to describe a group of singers performing together?",
-    options: ["Band", "Orchestra","Choir", "Ensemble"],
+    options: ["Band", "Orchestra", "Choir", "Ensemble"],
     answer: "Choir",
     category: "music",
   },
